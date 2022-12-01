@@ -126,7 +126,6 @@ int maxi = Convert.ToInt32(Console.ReadLine());
 double [] newArray = RandomThree(usersize, mini, maxi);
 PrintArray(newArray);
 
-Console.Write($"Количествово чётных чисел в массиве: ");
-Console.Write($"Разница = {Math.Round(Raznost(newArray), 2) }") ;
+Console.Write($"Разница между максимальным и минимальным значением в массиве = {Math.Round(Raznost(newArray), 2) }") ;
 
 
